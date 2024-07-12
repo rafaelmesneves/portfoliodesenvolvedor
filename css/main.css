@@ -1,0 +1,89 @@
+body {
+    background-color:  #cef781;
+}
+
+#centro .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.informacoes {
+    flex-direction: column;
+}
+.texto {
+    margin-left: 5%;
+    margin-bottom: 40px;
+}
+
+.texto h1 {
+    color: #18191F;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.texto p {
+    color: #474A57;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.botao {
+    margin-left: 5%;
+    width: 300px;
+}
+
+.botao button {
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    box-shadow: 8px 5px 5px #f7c081;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.imagem {
+    display: flex;
+    position: relative;
+    margin-left: 200px;
+}
+
+.imagem img {
+    width: 400px;
+    height: 400px;
+    background-color: #95de90;
+    box-shadow: 10px 5px 5px #f7c081;
+    border: 1px solid #95de90;
+    border-radius: 20px;
+}
+
+
+aside {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    left: 5%;
+}
+
+aside a {
+    display: block;
+    margin: 5px 0;
+    border-radius: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 1px 5px 5px #6b6b6b;
+    margin-bottom: 8px;
+    font-size: 25px;
+    color: #6b6b6b;
+}
+
+aside a:hover {
+    background-color: #ff7857;
+}
