@@ -1,0 +1,176 @@
+@media (min-width: 320px) and (max-width: 932px) {
+    header {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 5px;
+    }
+
+    header h1, header ul, header nav, header a {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header a {
+        font-size: 18px;
+    }
+
+    #container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .botoes {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .centro img {
+        width: 80%;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    aside {
+        margin-right: 50px;
+        display: flex;
+        margin-top: -80px;
+        margin-left: -150px;
+        width: 100%;
+    }
+
+    aside ul {
+        display: flex;
+        justify-content: center; 
+        gap: 15px;
+    }
+    
+    aside a {
+        margin-left: 5px;
+    }
+
+    footer {
+        margin-top: 100px;
+        margin-bottom: 10px;
+    }
+
+    /* pagina sobre */
+
+    .sobre-mim {
+        text-align: center;
+        max-width: 90%;
+
+    }
+
+    .sobre-mim p {
+        padding-bottom: 20px;
+    }
+
+    /* pagina tecnologias */
+
+.container-tec {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.tecnologias-titulo {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.tecnologias-titulo h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tecnologias-titulo h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+.tecnologias {
+    display: flex;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.tecnologias img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* pagina contato */
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.formulario input, .formulario button {
+    padding: 10px 50px;
+}
+
+.formulario textarea {
+    width: 50px;
+    height: 80px;
+    margin-bottom: 60px;
+}
+
+/* pagina projetos */
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.projetos-titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.projetos-titulo h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projetos-titulo h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.projetos-arquivos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center; /* implementar isso em contato */
+    align-items: flex-start;
+}
+
+.projetos-div {
+    max-width: 500px;
+    -webkit-box-shadow:3px 3px 4px 4px rgba(62,66,66,0.08);
+    -moz-box-shadow: 3px 3px 4px 4px rgba(62,66,66,0.08);
+    box-shadow: 3px 3px 4px 4px rgba(62,66,66,0.08);
+    margin: 20px;
+    padding: 5px;
+    background-color: #f2ede6;
+}
+
+}
